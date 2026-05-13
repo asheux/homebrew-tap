@@ -4,7 +4,7 @@ Homebrew tap for [`asheux/nit`](https://github.com/asheux/nit) and related proje
 
 This repository is **auto-maintained** by the `release.yml` workflow in
 `asheux/nit`. Each tagged release pushes an updated `Formula/nit.rb` here.
-Do not hand-edit the formula — changes will be overwritten on the next release.
+Do not hand-edit the formula, changes will be overwritten on the next release.
 
 ## Install
 
