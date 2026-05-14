@@ -9,13 +9,13 @@ class Nit < Formula
   # Single universal Mach-O covers Apple Silicon and Intel Macs.
   on_macos do
     url "https://download.nit.tools/v0.1.1/nit-v0.1.1-universal-apple-darwin.tar.gz"
-    sha256 "5cd604bee794dd1240a2ddc3032ee7c6e0ab67c426ccb9e2320c872a945c94b6"
+    sha256 "8596629bf5224c953859eb4e2272f8026cc52b9e4cf07ae995c46f993dfaed6f"
   end
 
   on_linux do
     on_intel do
       url "https://download.nit.tools/v0.1.1/nit-v0.1.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "44e84f2e6672041783e7812119b051cb1cbaad875dd92ebe3ff0666277cbd3ae"
+      sha256 "770917cc908128ed1e0491608cdca4dce64a32e2055297307ea7adfbc2a8ed65"
     end
   end
 
