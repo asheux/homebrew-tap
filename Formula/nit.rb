@@ -3,19 +3,19 @@
 class Nit < Formula
   desc "Terminal-native AI agent orchestrator with TUI"
   homepage "https://nit.tools"
-  version "0.2.3"
+  version "0.2.4"
   license "MIT"
 
   # Single universal Mach-O covers Apple Silicon and Intel Macs.
   on_macos do
-    url "https://download.nit.tools/v0.2.3/nit-v0.2.3-universal-apple-darwin.tar.gz"
-    sha256 "6a17553fd672a56631b1d0ba126c93f0af24d3e88f89bb972333b26c14af33a0"
+    url "https://download.nit.tools/v0.2.4/nit-v0.2.4-universal-apple-darwin.tar.gz"
+    sha256 "514a9c8f6e1d5bc7f4aa2416a1f7efde03747bd5edbb6a26d0495ba794c71bac"
   end
 
   on_linux do
     on_intel do
-      url "https://download.nit.tools/v0.2.3/nit-v0.2.3-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3198c74669a8953a341e30ceabbe0d23a8ce7e6a0155e3884a98f9a36fa7528c"
+      url "https://download.nit.tools/v0.2.4/nit-v0.2.4-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "14ae0e7ff86b71a3a4627b2ac0249dfac1fa9a1bcfedd0d23fc2d6c6a986731a"
     end
   end
 
